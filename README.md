@@ -1,3 +1,6 @@
+`Deployed Link` --->  (https://job-portal-deployed-0cui.onrender.com)
+
+
 # 💼 JOB_PORTAL  
 **Connecting Talent with Opportunities, Seamlessly**  
 
