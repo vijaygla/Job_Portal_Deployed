@@ -15,9 +15,9 @@ const Applicants = () => {
     useEffect(() => {
         const fetchAllApplicants = async () => {
             try {
-                // console.log("Fetching applicants for job ID:", params.id);
+                console.log("Fetching applicants for job ID:", params.id);
                 const res = await axios.get(`${APPLICATION_API_END_POINT}/${params.id}/applicants`, { withCredentials: true });
-                // console.log("API Response:", res.data);
+                console.log("API Response:", res.data);
                 // Updated to extract the correct property
                 dispatch(setAllApplicants(res.data.job?.application || [])); 
             } catch (error) {
